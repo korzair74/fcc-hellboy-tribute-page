@@ -1,0 +1,74 @@
+// base styles
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1,
+.subtitle {
+	font-family: "Righteous", cursive;
+}
+
+.container {
+	background: #eee;
+	border-radius: 0.5em;
+}
+
+// title section
+.title-wrapper {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.title {
+	font-size: 4rem;
+}
+
+.subtitle {
+	font-size: 1.25rem;
+}
+
+// heading image
+.image-wrapper {
+	text-align: center;
+	background: white;
+	padding: 1em;
+	margin: 1em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+}
+
+// main content
+.main-content-wrapper {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.main-content-title {
+	text-align: center;
+	margin: 3em 0;
+}
+
+span {
+	font-weight: 600;
+}
+
+.main-content-list-item + .main-content-list-item {
+	margin-top: 1em;
+}
+
+.main-content-quote-wrapper {
+	font-style: italic;
+	margin: 4em 0;
+}
+
+// footer
+footer {
+	text-align: center;
+	padding-bottom: 1em;
+}
